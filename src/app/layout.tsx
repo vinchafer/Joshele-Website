@@ -70,7 +70,7 @@ const schemaData = {
   },
   areaServed: [
     { '@type': 'City', name: 'Klosters', url: 'https://joshele.ch/' },
-    { '@type': 'City', name: 'Davos', url: 'https://joshele.ch/davos-klosters' },
+    { '@type': 'City', name: 'Davos' },
     { '@type': 'Region', name: 'Prättigau-Davos', url: 'https://joshele.ch/' },
     { '@type': 'State', name: 'Graubünden', url: 'https://joshele.ch/' },
     { '@type': 'Country', name: 'Switzerland', url: 'https://joshele.ch/' },
