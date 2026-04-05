@@ -7,21 +7,21 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+    <header className="sticky top-0 left-0 right-0 bg-white z-50 border-b border-gray-100">
       <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="font-serif text-2xl font-bold text-charcoal">
+        <Link href="/" className="font-serif text-xl font-semibold text-charcoal tracking-wide">
           JOSHELE - LIVING & MORE
         </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
-          <Link href="/" className="text-charcoal hover:text-sage transition-colors">
+          <Link href="/" className="text-charcoal hover:text-taupe transition-colors text-sm">
             Home
           </Link>
-          <a href="#about" className="text-charcoal hover:text-sage transition-colors">
+          <a href="#about" className="text-charcoal hover:text-taupe transition-colors text-sm">
             Über uns
           </a>
-          <a href="#contact" className="text-charcoal hover:text-sage transition-colors">
+          <a href="#contact" className="text-charcoal hover:text-taupe transition-colors text-sm">
             Kontakt
           </a>
         </div>
@@ -41,21 +41,21 @@ export default function Navigation() {
         <div className="md:hidden bg-white border-t border-gray-100 py-4 px-4 space-y-4">
           <Link
             href="/"
-            className="block text-charcoal hover:text-sage transition-colors"
+            className="block text-charcoal hover:text-taupe text-sm"
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <a
             href="#about"
-            className="block text-charcoal hover:text-sage transition-colors"
+            className="block text-charcoal hover:text-taupe text-sm"
             onClick={() => setIsOpen(false)}
           >
             Über uns
           </a>
           <a
             href="#contact"
-            className="block text-charcoal hover:text-sage transition-colors"
+            className="block text-charcoal hover:text-taupe text-sm"
             onClick={() => setIsOpen(false)}
           >
             Kontakt

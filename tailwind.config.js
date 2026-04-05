@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,15 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cream: '#f5f1ed',
         charcoal: '#2a2a2a',
-        sage: '#8b9d7f',
+        taupe: '#8b8680',
       },
       fontFamily: {
-        serif: ['Lora', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Lora', 'serif'],
+        sans: ['Inter', 'sans-serif'],
       },
     },
   },
   plugins: [],
 }
+
+module.exports = config
