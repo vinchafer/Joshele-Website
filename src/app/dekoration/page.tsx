@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import Link from 'next/link'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -59,7 +60,13 @@ export default function DekorationPage() {
               </p>
             </div>
 
-            <div className="mt-12">
+            <p className="text-charcoal mt-12">
+              <Link href="/dekoration-davos" className="text-taupe hover:text-charcoal font-semibold">
+                Auch in der Davos-Klosters Region? Hier mehr erfahren →
+              </Link>
+            </p>
+
+            <div className="mt-8">
               <a
                 href="/#contact"
                 className="inline-block px-8 py-4 border-2 border-charcoal text-charcoal hover:bg-charcoal hover:text-white transition-all duration-300 font-semibold"

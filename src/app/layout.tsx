@@ -69,9 +69,11 @@ const schemaData = {
     longitude: 9.8729,
   },
   areaServed: [
-    { '@type': 'City', name: 'Klosters' },
-    { '@type': 'State', name: 'Graubünden' },
-    { '@type': 'Country', name: 'Switzerland' },
+    { '@type': 'City', name: 'Klosters', url: 'https://joshele.ch/' },
+    { '@type': 'City', name: 'Davos', url: 'https://joshele.ch/davos-klosters' },
+    { '@type': 'Region', name: 'Prättigau-Davos', url: 'https://joshele.ch/' },
+    { '@type': 'State', name: 'Graubünden', url: 'https://joshele.ch/' },
+    { '@type': 'Country', name: 'Switzerland', url: 'https://joshele.ch/' },
   ],
   telephone: '+41814222303',
   openingHoursSpecification: [
@@ -90,6 +92,8 @@ const schemaData = {
   ],
   sameAs: [
     'https://instagram.com/joshele_livingandmore',
+    'https://www.google.com/maps/place/Joshele+-+Living+%26+More',
+    'https://maps.apple.com/?address=Alte%20Bahnhofstrasse%203,%207250%20Klosters,%20Switzerland',
   ],
   priceRange: 'CHF 50 - CHF 5000',
   keywords: 'Dekoration, Damenmode, Alpenchic, Klosters, Graubünden',

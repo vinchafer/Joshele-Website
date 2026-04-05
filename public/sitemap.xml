@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
+
+  <!-- HOME -->
   <url>
     <loc>https://joshele.ch/</loc>
     <lastmod>2025-04-05</lastmod>
@@ -12,7 +14,8 @@
         <kml xmlns="http://www.opengis.net/kml/2.2">
           <Document>
             <Placemark>
-              <name>JOSHELE Klosters</name>
+              <name>JOSHELE Klosters-Davos Region</name>
+              <description>Dekoration & Damenmode in Klosters, Davos Region</description>
               <Point><coordinates>9.8729,46.6054</coordinates></Point>
             </Placemark>
           </Document>
@@ -21,6 +24,7 @@
     </geo:geo>
   </url>
 
+  <!-- DEKORATION -->
   <url>
     <loc>https://joshele.ch/dekoration</loc>
     <lastmod>2025-04-05</lastmod>
@@ -28,6 +32,7 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- DAMENMODE -->
   <url>
     <loc>https://joshele.ch/damenmode</loc>
     <lastmod>2025-04-05</lastmod>
@@ -35,10 +40,34 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- IMPRESSIONEN -->
   <url>
     <loc>https://joshele.ch/impressionen</loc>
     <lastmod>2025-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- DAVOS VARIANTS -->
+  <url>
+    <loc>https://joshele.ch/dekoration-davos</loc>
+    <lastmod>2025-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://joshele.ch/damenmode-davos</loc>
+    <lastmod>2025-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://joshele.ch/davos-klosters</loc>
+    <lastmod>2025-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
