@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'JOSHELE - Dekoration & Damenmode Klosters | Alpenchic Living',
-  description: 'Seit 40 Jahren deine Vertrauenspartnerin für hochwertige Dekoration und elegante Damenmode in Klosters. Alpenchic Stil, zeitlose Eleganz. Besuche uns im Dorfkern.',
-  keywords: ['Dekoration Klosters', 'Damenmode Graubünden', 'Alpenchic Mode', 'Deko Klosters', 'Mode Prättigau', 'Vintage Dekoration Schweiz'],
+  title: 'JOSHELE - Innendekoration und Damenmode Klosters',
+  description: 'Seit 40 Jahren Innendekoration und Damenmode in Klosters. Hochwertige Auswahl, persönliche Beratung. Besuche uns im Dorfkern an der Alten Bahnhofstrasse 3.',
+  keywords: ['Innendekoration Klosters', 'Damenmode Klosters', 'Dekoration Graubünden', 'Mode Klosters', 'Boutique Klosters'],
   alternates: {
     canonical: 'https://joshele.ch',
     languages: {
@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'JOSHELE - Dekoration & Damenmode',
-    description: 'Seit 40 Jahren: Hochwertige Dekoration & Alpine Chic Mode in Klosters, Graubünden.',
+    title: 'JOSHELE - Innendekoration und Damenmode in Klosters',
+    description: 'Seit 40 Jahren Innendekoration und Damenmode in Klosters. Hochwertige Auswahl, persönliche Beratung.',
     url: 'https://joshele.ch',
     siteName: 'JOSHELE - Living & More',
     type: 'website',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'JOSHELE - Dekoration & Damenmode',
-    description: 'Alpenchic Living seit 40 Jahren in Klosters',
+    description: 'Innendekoration und Damenmode in Klosters seit 40 Jahren',
     images: ['https://joshele.ch/og-image.jpg'],
   },
   robots: {
@@ -54,7 +54,7 @@ const schemaData = {
   name: 'JOSHELE - Living & More',
   url: 'https://joshele.ch',
   image: 'https://joshele.ch/og-image.jpg',
-  description: 'Dekoration & Damenmode in Klosters seit 40 Jahren',
+  description: 'Innendekoration und Damenmode in Klosters seit 40 Jahren',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Alte Bahnhofstrasse 3',
@@ -96,7 +96,7 @@ const schemaData = {
     'https://maps.apple.com/?address=Alte%20Bahnhofstrasse%203,%207250%20Klosters,%20Switzerland',
   ],
   priceRange: 'CHF 50 - CHF 5000',
-  keywords: 'Dekoration, Damenmode, Alpenchic, Klosters, Graubünden',
+  keywords: 'Innendekoration, Damenmode, Klosters, Graubünden, Boutique',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',

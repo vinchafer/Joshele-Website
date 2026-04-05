@@ -65,7 +65,7 @@ export default function Home() {
               Willkommen bei JOSHELE
             </h1>
             <p className="font-serif text-2xl md:text-3xl mb-8 font-light">
-              Zeitlose Eleganz trifft Alpinen Stil
+              Innendekoration und Damenmode in Klosters
             </p>
             <a
               href="#about"
