@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /dekoration
+Allow: /damenmode
+Allow: /impressionen
+Disallow: /api/
+Disallow: /*.json$
+
+Sitemap: https://joshele.ch/sitemap.xml
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
