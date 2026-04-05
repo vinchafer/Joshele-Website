@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import ImageCarousel from '@/components/ImageCarousel'
 import Image from 'next/image'
 
 export default function Home() {
@@ -45,10 +46,10 @@ export default function Home() {
     <>
       <Navigation />
       <main>
-        {/* HERO SECTION - FULL SCREEN WITH IMAGE */}
+        {/* HERO SECTION - FULL SCREEN WITH LOCAL IMAGE */}
         <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
           <Image
-            src="https://files.designer.hoststar.ch/c0/d5/c0d59bdf-2ef3-4da2-8c6e-664da7de191a.jpg"
+            src="/bilder/IMG_9684.jpg"
             alt="JOSHELE Shopfront"
             fill
             className="object-cover"
@@ -84,36 +85,14 @@ export default function Home() {
                 Über uns
               </h2>
               <p className="text-xl text-charcoal leading-relaxed max-w-3xl">
-                Seit über 40 Jahren Ihr Vertrauenspartner für Dekoration & Alpine Chic in Klosters.
+                Seit über 40 Jahren Ihr Vertrauenspartner für Dekoration & Damenmode in Klosters.
                 Joshele - Living & More finden Sie mitten im Dorfkern — gerne beraten wir Sie
                 persönlich und freuen uns auf Ihren Besuch.
               </p>
             </div>
 
-            {/* IMPRESSIONS */}
-            <div>
-              <h3 className="font-serif text-4xl font-bold text-charcoal mb-12">
-                Impressionen
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="relative h-80 md:h-96">
-                  <Image
-                    src="https://files.designer.hoststar.ch/c0/d5/c0d59bdf-2ef3-4da2-8c6e-664da7de191a.jpg"
-                    alt="Impression 1"
-                    fill
-                    className="object-cover rounded-lg"
-                  />
-                </div>
-                <div className="relative h-80 md:h-96">
-                  <Image
-                    src="https://files.designer.hoststar.ch/ea/91/ea919b91-a629-408d-8254-da1188c70a56.jpg"
-                    alt="Impression 2"
-                    fill
-                    className="object-cover rounded-lg"
-                  />
-                </div>
-              </div>
-            </div>
+            {/* IMPRESSIONS CAROUSEL */}
+            <ImageCarousel title="Impressionen" />
           </div>
         </section>
 
@@ -125,10 +104,21 @@ export default function Home() {
             </h2>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-              {/* LEFT: MAP + INFO */}
+              {/* LEFT COLUMN: EXTERIOR + MAP + INFO */}
               <div className="space-y-12">
+                {/* EXTERIOR IMAGE */}
+                <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
+                  <Image
+                    src="/bilder/IMG_9678.jpg"
+                    alt="JOSHELE Außenansicht"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </div>
+
                 {/* MAP */}
-                <div className="w-full h-96 rounded-lg overflow-hidden">
+                <div className="w-full h-80 rounded-lg overflow-hidden">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.1234567890!2d9.8729!3d46.6054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b1d4f4f4f4f4f%3A0x1234567890abcdef!2sAlte%20Bahnhofstrasse%203%2C%207250%20Klosters!5e0!3m2!1sde!2sch!4v1234567890"
                     width="100%"
@@ -168,7 +158,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* RIGHT: FORM */}
+              {/* RIGHT COLUMN: FORM */}
               <div>
                 <h3 className="font-serif text-2xl font-bold text-charcoal mb-8">
                   Nachricht senden
