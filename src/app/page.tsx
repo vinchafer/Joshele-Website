@@ -85,9 +85,12 @@ export default function Home() {
                 Über uns
               </h2>
               <p className="text-xl text-charcoal leading-relaxed max-w-3xl">
-                Seit über 40 Jahren Ihr Vertrauenspartner für Dekoration & Damenmode in Klosters.
-                Joshele - Living & More finden Sie mitten im Dorfkern — gerne beraten wir Sie
-                persönlich und freuen uns auf Ihren Besuch.
+                40 Jahre Leidenschaft für gutes Design und zeitlose Damenmode. JOSHELE - Living & More
+                ist unser Ort in Klosters. Hier finden Sie Alltagsgegenstände, Dekoration
+                für Ihr Zuhause und Damenmode, die Ihr Leben bereichert.
+                <br />
+                <br />
+                Kommen Sie vorbei – wir freuen uns auf Sie.
               </p>
             </div>
 
