@@ -8,16 +8,14 @@ export default function Navigation() {
 
   return (
     <header className="sticky top-0 left-0 right-0 bg-white z-50 border-b border-gray-100">
-      <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center">
-          <svg viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg" className="h-10">
-            <text x="0" y="60" fontFamily="Lora, serif" fontSize="64" fontWeight="300" fill="#888888" letterSpacing="6">
-              JOSHELE
-            </text>
-            <text x="2" y="100" fontFamily="Lora, serif" fontSize="28" fontWeight="300" fill="#888888" letterSpacing="5">
-              LIVING & MORE
-            </text>
-          </svg>
+      <nav className="max-w-6xl mx-auto px-4 py-5 flex justify-between items-center">
+        <Link href="/" className="flex items-center gap-3">
+          <div className="font-serif text-4xl font-semibold text-charcoal leading-tight">
+            JOSHELE
+          </div>
+          <div className="font-serif text-base font-light text-charcoal tracking-widest">
+            LIVING & MORE
+          </div>
         </Link>
 
         {/* Desktop Menu */}

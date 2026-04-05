@@ -49,7 +49,7 @@ export default function Home() {
         {/* HERO SECTION - FULL SCREEN WITH LOCAL IMAGE */}
         <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
           <Image
-            src="/bilder/IMG_9684.jpeg"
+            src="/bilder/IMG_9683.jpeg"
             alt="JOSHELE Shopfront"
             fill
             className="object-cover"
@@ -57,7 +57,7 @@ export default function Home() {
           />
 
           {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black/30" />
+          <div className="absolute inset-0 bg-black/25" />
 
           {/* Content Overlay */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 z-10">
@@ -107,18 +107,24 @@ export default function Home() {
               {/* LEFT COLUMN: EXTERIOR + MAP + INFO */}
               <div className="space-y-12">
                 {/* EXTERIOR IMAGE */}
-                <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
+                <div className="relative h-72 md:h-80 rounded-lg overflow-hidden shadow-lg group">
                   <Image
                     src="/bilder/IMG_9678.jpeg"
-                    alt="JOSHELE Außenansicht"
+                    alt="JOSHELE Außenansicht Klosters"
                     fill
-                    className="object-cover"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
+                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors duration-500" />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
+                    <p className="text-white text-sm font-light tracking-wide">
+                      JOSHELE im Dorfkern von Klosters
+                    </p>
+                  </div>
                 </div>
 
                 {/* MAP */}
-                <div className="w-full h-80 rounded-lg overflow-hidden">
+                <div className="w-full h-80 rounded-lg overflow-hidden shadow-lg">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.1234567890!2d9.8729!3d46.6054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b1d4f4f4f4f4f%3A0x1234567890abcdef!2sAlte%20Bahnhofstrasse%203%2C%207250%20Klosters!5e0!3m2!1sde!2sch!4v1234567890"
                     width="100%"
