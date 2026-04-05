@@ -17,7 +17,6 @@ export default function ImageCarousel({ title }: CarouselProps) {
     { src: '/bilder/IMG_9691.jpeg', alt: 'Impression 4' },
     { src: '/bilder/IMG_9692.jpeg', alt: 'Impression 5' },
     { src: '/bilder/IMG_9684.jpeg', alt: 'Impression 6' },
-    { src: '/bilder/IMG_9689.jpeg', alt: 'Impression 7' },
   ]
 
   const imagesPerSlide = 2

@@ -116,11 +116,6 @@ export default function Home() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                   <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors duration-500" />
-                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
-                    <p className="text-white text-sm font-light tracking-wide">
-                      JOSHELE im Dorfkern von Klosters
-                    </p>
-                  </div>
                 </div>
 
                 {/* MAP */}
