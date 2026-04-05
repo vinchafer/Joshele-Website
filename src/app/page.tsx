@@ -49,7 +49,7 @@ export default function Home() {
         {/* HERO SECTION - FULL SCREEN WITH LOCAL IMAGE */}
         <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
           <Image
-            src="/bilder/IMG_9684.jpg"
+            src="/bilder/IMG_9684.jpeg"
             alt="JOSHELE Shopfront"
             fill
             className="object-cover"
@@ -109,7 +109,7 @@ export default function Home() {
                 {/* EXTERIOR IMAGE */}
                 <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
                   <Image
-                    src="/bilder/IMG_9678.jpg"
+                    src="/bilder/IMG_9678.jpeg"
                     alt="JOSHELE Außenansicht"
                     fill
                     className="object-cover"

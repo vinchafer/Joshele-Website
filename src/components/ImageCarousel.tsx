@@ -12,15 +12,15 @@ export default function ImageCarousel({ title }: CarouselProps) {
 
   const imageSets = [
     [
-      { src: '/bilder/IMG_9686.jpg', alt: 'Impression 1' },
-      { src: '/bilder/IMG_9688.jpg', alt: 'Impression 2' },
+      { src: '/bilder/IMG_9686.jpeg', alt: 'Impression 1' },
+      { src: '/bilder/IMG_9688.jpeg', alt: 'Impression 2' },
     ],
     [
-      { src: '/bilder/IMG_9690.jpg', alt: 'Impression 3' },
-      { src: '/bilder/IMG_9691.jpg', alt: 'Impression 4' },
-      { src: '/bilder/IMG_9692.jpg', alt: 'Impression 5' },
-      { src: '/bilder/IMG_9684.jpg', alt: 'Impression 6' },
-      { src: '/bilder/IMG_9689.jpg', alt: 'Impression 7' },
+      { src: '/bilder/IMG_9690.jpeg', alt: 'Impression 3' },
+      { src: '/bilder/IMG_9691.jpeg', alt: 'Impression 4' },
+      { src: '/bilder/IMG_9692.jpeg', alt: 'Impression 5' },
+      { src: '/bilder/IMG_9684.jpeg', alt: 'Impression 6' },
+      { src: '/bilder/IMG_9689.jpeg', alt: 'Impression 7' },
     ],
   ]
 
