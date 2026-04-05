@@ -150,11 +150,17 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-serif text-2xl font-bold text-charcoal mb-4">Öffnungszeiten</h3>
-                    <p className="text-charcoal leading-relaxed text-sm">
-                      Mo–Fr: 10:00–12:00, 14:00–18:00<br />
-                      Sa: 10:00–17:00<br />
-                      So: Geschlossen
+                    <p className="text-charcoal leading-relaxed text-sm mb-4">
+                      Aktuelle Öffnungszeiten findest du auf Google Maps:
                     </p>
+                    <a
+                      href="https://www.google.com/maps/search/Joshele+Living+More+Alte+Bahnhofstrasse+3+7250+Klosters"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block px-6 py-3 border-2 border-taupe text-taupe hover:bg-taupe hover:text-white transition-all duration-300 font-semibold text-sm"
+                    >
+                      Google Maps öffnen
+                    </a>
                   </div>
                 </div>
               </div>
