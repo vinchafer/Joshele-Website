@@ -21,7 +21,7 @@ export default function DamenmodeSeite() {
       <main>
         <section className="py-24 px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="font-serif text-5xl font-bold text-charcoal mb-6">
+            <h1 className="font-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-charcoal mb-6">
               Damenmode in Graubünden
             </h1>
 
@@ -32,7 +32,7 @@ export default function DamenmodeSeite() {
                 Leben in den Bergen und darüber hinaus.
               </p>
 
-              <h2 className="font-serif text-3xl font-bold text-charcoal mt-12 mb-6">
+              <h2 className="font-serif text-xl md:text-2xl lg:text-3xl font-bold text-charcoal mt-12 mb-6">
                 Unser Mode-Sortiment
               </h2>
 
@@ -44,7 +44,7 @@ export default function DamenmodeSeite() {
                 <li>✓ Persönliche Stilberatung</li>
               </ul>
 
-              <h2 className="font-serif text-3xl font-bold text-charcoal mt-12 mb-6">
+              <h2 className="font-serif text-xl md:text-2xl lg:text-3xl font-bold text-charcoal mt-12 mb-6">
                 Alpenchic Style
               </h2>
 
@@ -54,7 +54,7 @@ export default function DamenmodeSeite() {
                 genau diese Balance — Mode, die dich überall begleitet.
               </p>
 
-              <h2 className="font-serif text-3xl font-bold text-charcoal mt-12 mb-6">
+              <h2 className="font-serif text-xl md:text-2xl lg:text-3xl font-bold text-charcoal mt-12 mb-6">
                 Warum JOSHELE für Mode wählen?
               </h2>
 

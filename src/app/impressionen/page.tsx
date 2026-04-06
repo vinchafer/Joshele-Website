@@ -28,10 +28,10 @@ export default function ImpressionsPage() {
       <main>
         <section className="py-24 px-4">
           <div className="max-w-6xl mx-auto">
-            <h1 className="font-serif text-5xl font-bold text-charcoal mb-6 text-center">
+            <h1 className="font-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-charcoal mb-6 text-center">
               Impressionen
             </h1>
-            <p className="text-center text-charcoal text-lg mb-16 max-w-2xl mx-auto">
+            <p className="text-center text-charcoal text-base md:text-lg mb-16 max-w-2xl mx-auto">
               Erlebe die Atmosphäre von JOSHELE — ein Ort für Dekoration & Mode
               im Dorfkern von Klosters
             </p>

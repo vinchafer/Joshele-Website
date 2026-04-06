@@ -61,7 +61,7 @@ export default function Home() {
 
           {/* Content Overlay */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 z-10">
-            <h1 className="font-serif text-6xl md:text-7xl font-bold mb-4 tracking-tight">
+            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 tracking-tight">
               Willkommen bei JOSHELE
             </h1>
             <p className="font-serif text-2xl md:text-3xl mb-8 font-light">
@@ -81,13 +81,14 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             {/* ABOUT */}
             <div className="mb-24">
-              <h2 className="font-serif text-5xl font-bold text-charcoal mb-8">
+              <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-charcoal mb-8">
                 Über uns
               </h2>
-              <p className="text-xl text-charcoal leading-relaxed max-w-3xl">
-                40 Jahre Leidenschaft für gutes Design und zeitlose Damenmode. JOSHELE - Living & More
-                ist unser Ort in Klosters. Hier finden Sie Alltagsgegenstände, Dekoration
-                für Ihr Zuhause und Damenmode, die Ihr Leben bereichert.
+              <p className="text-lg md:text-xl text-charcoal leading-relaxed max-w-3xl">
+                Seit über 40 Jahren Leidenschaft für gutes Design und Damenmode.
+                JOSHELE - Living & More im Dorfkern von Klosters. Hier finden Sie Alltagsgegenstände,
+                Dekoration für ihr Zuhause und Damenmode
+                – persönlich ausgewählt, zeitlos schön.
                 <br />
                 <br />
                 Kommen Sie vorbei – wir freuen uns auf Sie.
@@ -102,7 +103,7 @@ export default function Home() {
         {/* CONTACT SECTION - COMBINED */}
         <section id="contact" className="bg-gray-50 py-32 px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="font-serif text-5xl font-bold text-charcoal mb-16 text-center">
+            <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-charcoal mb-16 text-center">
               Kontakt
             </h2>
 
@@ -170,7 +171,7 @@ export default function Home() {
 
               {/* RIGHT COLUMN: FORM */}
               <div>
-                <h3 className="font-serif text-2xl font-bold text-charcoal mb-8">
+                <h3 className="font-serif text-lg md:text-xl lg:text-2xl font-bold text-charcoal mb-8">
                   Nachricht senden
                 </h3>
                 {message && (

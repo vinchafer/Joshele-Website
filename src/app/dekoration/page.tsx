@@ -21,7 +21,7 @@ export default function DekorationPage() {
       <main>
         <section className="py-24 px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="font-serif text-5xl font-bold text-charcoal mb-6">
+            <h1 className="font-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-charcoal mb-6">
               Dekoration in Klosters
             </h1>
 
@@ -32,7 +32,7 @@ export default function DekorationPage() {
                 wir bieten die perfekte Auswahl für dein Zuhause.
               </p>
 
-              <h2 className="font-serif text-3xl font-bold text-charcoal mt-12 mb-6">
+              <h2 className="font-serif text-xl md:text-2xl lg:text-3xl font-bold text-charcoal mt-12 mb-6">
                 Unser Dekorations-Sortiment
               </h2>
 
@@ -44,7 +44,7 @@ export default function DekorationPage() {
                 <li>✓ Individuelle Beratung vor Ort</li>
               </ul>
 
-              <h2 className="font-serif text-3xl font-bold text-charcoal mt-12 mb-6">
+              <h2 className="font-serif text-xl md:text-2xl lg:text-3xl font-bold text-charcoal mt-12 mb-6">
                 Warum JOSHELE für Dekoration wählen?
               </h2>
 
