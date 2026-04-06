@@ -31,7 +31,7 @@ export default function ImageCarousel({ title }: CarouselProps) {
 
   return (
     <div>
-      <h3 className="font-serif text-4xl font-bold text-charcoal mb-12">
+      <h3 className="font-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-charcoal mb-12">
         {title}
       </h3>
 
