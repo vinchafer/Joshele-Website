@@ -54,6 +54,8 @@ export default function Home() {
             fill
             className="object-cover"
             priority
+            sizes="100vw"
+            quality={75}
           />
 
           {/* Dark Overlay */}
@@ -118,6 +120,8 @@ export default function Home() {
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, 50vw"
+                    loading="lazy"
+                    quality={75}
                   />
                   <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors duration-500" />
                 </div>
@@ -132,6 +136,7 @@ export default function Home() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
+                    title="JOSHELE Klosters auf Google Maps"
                   />
                 </div>
 
